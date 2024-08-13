@@ -6,5 +6,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="ejlchina.data.gson2" level="project" />
+    <orderEntry type="library" name="ejlchina.data.gson3" level="project" />
+    <orderEntry type="library" name="ejlchina.data.gson4" level="project" />
   </component>
 </module>
