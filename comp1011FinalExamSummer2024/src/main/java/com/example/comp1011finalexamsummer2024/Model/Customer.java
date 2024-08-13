@@ -108,12 +108,12 @@ public class Customer {
                 .sum();
     }
 
-    // Method to get total savings
-//    public double getTotalSavings() {
-//        return purchases.stream()
-//                .mapToDouble(p -> p.getRegularPrice() - p.getSalePrice())
-//                .sum();
-//    }
+//     Method to get total savings
+    public double getTotalSavings() {
+        return purchases.stream()
+                .mapToDouble(p -> p.getRegularPrice() - p.getSalePrice())
+                .sum();
+    }
 //
 //    // Method to check if saved $5 or more on all purchases
 //    public boolean savedFiveOrMore() {
