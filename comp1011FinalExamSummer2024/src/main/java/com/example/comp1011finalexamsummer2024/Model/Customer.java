@@ -114,11 +114,11 @@ public class Customer {
                 .mapToDouble(p -> p.getRegularPrice() - p.getSalePrice())
                 .sum();
     }
-//
-//    // Method to check if saved $5 or more on all purchases
-//    public boolean savedFiveOrMore() {
-//        return purchases.stream()
-//                .allMatch(p -> p.getRegularPrice() - p.getSalePrice() >= 5.0);
-//    }
+
+    // Method to check if saved $5 or more on all purchases
+    public boolean savedFiveOrMore() {
+        return purchases.stream()
+                .allMatch(p -> p.getRegularPrice() - p.getSalePrice() >= 5.0);
+    }
 }
 
