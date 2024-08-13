@@ -1,7 +1,7 @@
-package com.example.comp1011finalexamsummer2024.Model;
-
-// Author: Dipak Bhul
+// Author Name: Dipak Bhul
 // Student Number: 200564268
+
+package com.example.comp1011finalexamsummer2024.Model;
 
 public class Product {
     private String sku;
